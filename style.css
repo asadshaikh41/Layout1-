@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+.header-logo {
+  padding: 1.2rem;
+  width: 20%;
+  background-color: antiquewhite;
+}
+.header-banner {
+  padding: 1.2rem;
+  width: 60%;
+  background-color: aqua;
+}
+.header-bar {
+  padding: 1.2rem;
+  width: 82.3%;
+  background-color: azure;
+}
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+.left-blocks {
+  padding: 1.2rem;
+  width: 20%;
+  height: 25rem;
+  background-color: blue;
+  text-align: center;
+}
+.center-center-blocks {
+  padding: 1.2rem;
+  width: 37.5%;
+  background-color: blueviolet;
+}
+.right-blocks {
+  padding: 1.2rem;
+  width: 20%;
+  background-color: cadetblue;
+}
+.center-block {
+  padding: 3rem;
+  background-color: floralwhite;
+}
+.blocks {
+  display: flex;
+}
+.center-left-block {
+  width: 50%;
+  padding: 3rem;
+  background-color: darksalmon;
+}
+.center-right-block {
+  width: 50%;
+  padding: 3rem;
+  background-color: darkorange;
+}
+.module {
+  padding: 3rem;
+  background-color: darkkhaki;
+}
+footer {
+  width: 80.5%;
+  padding: 2rem;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-size: 30px;
+  background-color: darkgreen;
+}
+@media (min-width: 240px) and (max-width: 800px) {
+  .container {
+    width: 30rem;
+    font-size: 20px;
+    padding: 10px;
+  }
+  .header-banner {
+    width: 117px;
+  }
+  .header-bar {
+    width: 15.7rem;
+  }
+  .hero {
+    width: 30rem;
+    font-size: 20px;
+  }
+  .left-blocks {
+    position: relative;
+    left: 10px;
+    width: 16.9rem;
+    padding: 10px;
+  }
+
+  .center-center-blocks {
+    position: relative;
+    left: 10px;
+    width: 16.9rem;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .blocks {
+    font-size: 20px;
+  }
+  .center-right-block {
+    width: 1rem;
+  }
+  .right-blocks {
+    position: relative;
+    left: 10px;
+    width: 16.9rem;
+    padding: 10px;
+    font-size: 20px;
+  }
+  footer {
+    position: relative;
+    left: 10px;
+    width: 16.9rem;
+    padding: 10px;
+    font-size: 20px;
+  }
+}
